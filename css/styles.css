@@ -1,0 +1,190 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+
+}
+/* Container Section */
+.container-fluid {
+	padding: 7% 15%;
+}
+
+
+
+
+h1,h2,h3,h4,h5,h6 {
+	font-family: 'Montserrat', sans-serif;
+	
+}
+
+p {
+	color: #8f8f8f;
+}
+
+/* Navigation Bar */
+.navbar {
+	padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+	font-family: 'Ubuntu';
+	font-size: 2.5rem;
+	font-weight: bold;
+}
+
+.nav-item {
+	padding: 0 18px;
+}
+
+.nav-link {
+	font-size: 1.2rem;
+	font-family: "Montserrat-Light";
+
+}
+
+/* Download Buttons */
+.download-button {
+	margin: 5% 3% 5% 0;
+}
+/* Title Section */
+
+
+#title.container-fluid{
+	padding:3% 15% 7% ;
+	text-align: left;
+}
+
+/* Title Image */
+.title-img {
+	width: 60%;
+	transform: rotate(25deg);
+	position: absolute;
+	right: 30%;
+
+}
+
+/* Feature section */
+#features {
+	
+	background-color: #fff;
+	position: relative;
+	z-index:1;
+}
+
+.feature-box {
+	
+	padding: 3%;
+}
+.feature-title{
+	font-size: 1.5rem;
+}
+
+/* Awesome Font Icon */
+.awesome-font {
+	color: #ef8172;
+
+
+}
+
+.awesome-font:hover {
+	color: #ff4c68;
+
+}
+
+/* Testimonial Section */
+#testimonials {
+	
+	background-color: #ef8172;
+
+}
+.price-text{
+	font-size: 3rem;
+	line-height: 1.5;
+}
+.testimonial-image {
+	width: 10%;
+	border-radius: 100%;
+	margin: 20px;
+}
+
+.carousel-item {
+	padding: 5% 10%;
+
+}
+
+#press {
+	background-color: #ef8172;
+	
+	padding-bottom: 2%;
+}
+
+.press-logo {
+	width: 15%;
+	margin: 10px 20px 20px;
+}
+
+
+/* Pricing Section */
+#pricing{
+	padding: 100px;
+	
+}
+.pricing-column{
+	padding: 3% 2%;
+
+}
+.price-text{
+	font-size: 3rem;
+	line-height: 1.5;
+}
+
+/* Call to Action Section */
+
+
+
+/*footer Section */
+
+#footer{
+	
+	background-color: #fff;
+}
+.social-icon {
+	margin: 20px 10px;
+}
+
+
+@media (max-width:1028px){
+	#title{
+		text-align: center;
+	}
+
+	.title-img{
+		position: static;
+		transform: rotate(0);
+
+}
+}
+
+/* Heading */
+
+.big-heading{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 3.5rem;
+	font-weight: 900;
+	line-height: 1.5;
+
+}
+.section-heading{
+	font-size: 3rem;
+	line-height: 1.5;
+
+}
+/* Section */
+.colored-section{
+	background-color: #ff4c68;
+	color: #fff;
+
+}
+.white-section{
+	background-color:#fff;
+
+}
