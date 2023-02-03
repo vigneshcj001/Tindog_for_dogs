@@ -3,17 +3,21 @@ body {
 	text-align: center;
 
 }
+
 /* Container Section */
 .container-fluid {
 	padding: 7% 15%;
 }
 
 
-
-
-h1,h2,h3,h4,h5,h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
 	font-family: 'Montserrat', sans-serif;
-	
+
 }
 
 p {
@@ -45,11 +49,12 @@ p {
 .download-button {
 	margin: 5% 3% 5% 0;
 }
+
 /* Title Section */
 
 
-#title.container-fluid{
-	padding:3% 15% 7% ;
+#title.container-fluid {
+	padding: 3% 15% 7%;
 	text-align: left;
 }
 
@@ -64,17 +69,18 @@ p {
 
 /* Feature section */
 #features {
-	
+
 	background-color: #fff;
 	position: relative;
-	z-index:1;
+	z-index: 1;
 }
 
 .feature-box {
-	
+
 	padding: 3%;
 }
-.feature-title{
+
+.feature-title {
 	font-size: 1.5rem;
 }
 
@@ -92,14 +98,16 @@ p {
 
 /* Testimonial Section */
 #testimonials {
-	
+
 	background-color: #ef8172;
 
 }
-.price-text{
+
+.price-text {
 	font-size: 3rem;
 	line-height: 1.5;
 }
+
 .testimonial-image {
 	width: 10%;
 	border-radius: 100%;
@@ -113,7 +121,7 @@ p {
 
 #press {
 	background-color: #ef8172;
-	
+
 	padding-bottom: 2%;
 }
 
@@ -124,15 +132,17 @@ p {
 
 
 /* Pricing Section */
-#pricing{
+#pricing {
 	padding: 100px;
-	
+
 }
-.pricing-column{
+
+.pricing-column {
 	padding: 3% 2%;
 
 }
-.price-text{
+
+.price-text {
 	font-size: 3rem;
 	line-height: 1.5;
 }
@@ -140,51 +150,55 @@ p {
 /* Call to Action Section */
 
 
-
 /*footer Section */
 
-#footer{
-	
+#footer {
+
 	background-color: #fff;
 }
+
 .social-icon {
 	margin: 20px 10px;
+	color: #8f8f8f;
 }
 
 
-@media (max-width:1028px){
-	#title{
+@media (max-width:1028px) {
+	#title {
 		text-align: center;
 	}
 
-	.title-img{
+	.title-img {
 		position: static;
 		transform: rotate(0);
 
-}
+	}
 }
 
 /* Heading */
 
-.big-heading{
+.big-heading {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 3.5rem;
 	font-weight: 900;
 	line-height: 1.5;
 
 }
-.section-heading{
+
+.section-heading {
 	font-size: 3rem;
 	line-height: 1.5;
 
 }
+
 /* Section */
-.colored-section{
+.colored-section {
 	background-color: #ff4c68;
 	color: #fff;
 
 }
-.white-section{
-	background-color:#fff;
+
+.white-section {
+	background-color: #fff;
 
 }
